@@ -69,7 +69,7 @@ public class LoginCheck extends HttpServlet
 			{
 				RequestDispatcher rd=request.getRequestDispatcher("Login.jsp");  
 				rd.include(request, response); 
-				out.println("<br><br><h3><center><font color=red>!!YOU ARE NOT REGISTERED.. CONTACT YOUR ADMIN!!</font></center></h3>");
+				out.println("<br><br><h3><center><font color=red>!!YOU ARE NOT REGISTERED..PLEASE CONTACT YOUR ADMIN!!</font></center></h3>");
 			}
 			else if(flag==1)
 			{
